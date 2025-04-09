@@ -13,4 +13,9 @@ def selection_sort(list):
         list[i], list[minIdx] = list[minIdx], list[i]
     return list
 
+def bubble_sort(list):
+    length = len(list)
+    
+
 print(selection_sort([5,21,6,9,3,1]))
+print(bubble_sort([5,21,6,9,3,1]))
